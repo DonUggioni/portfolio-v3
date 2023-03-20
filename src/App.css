@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;600;700&display=swap');
+
+:root {
+  --primary500: rgb(9, 10, 29);
+  --primary400: rgb(17, 19, 59);
+  --secondary500: rgb(15, 204, 206);
+  --secondary400: rgb(18, 246, 250);
+  --green500: rgb(0, 186, 85);
+  --green400: rgb(0, 255, 115);
+  --yellow500: rgb(255, 245, 0);
+  --pink500: rgb(255, 0, 138);
+  --grey500: rgb(158, 158, 158);
+  --grey400: rgb(214, 214, 214);
+  --grey300: rgb(239, 239, 239);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.8rem;
+  background-color: var(--primary500);
+  color: var(--grey300);
+  font-family: 'Inconsolata', monospace;
+}
