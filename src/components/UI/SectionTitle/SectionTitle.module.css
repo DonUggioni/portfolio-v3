@@ -1,0 +1,10 @@
+.title {
+  font-size: 3.8rem;
+  color: var(--secondary500);
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.span {
+  color: var(--pink500);
+}

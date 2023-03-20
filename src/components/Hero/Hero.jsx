@@ -8,7 +8,7 @@ function Hero() {
         <h3 className={classes.headerSmall}>Hello, my name is</h3>
         <div>
           <h1 className={classes.headerLarge}>
-            Renan Tiscoski <br />
+            Renan Tiscoski, <br />
             <span className={classes.textDarker}>
               I build <span className={classes.accent}>digital</span> stuff.
             </span>
