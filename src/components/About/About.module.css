@@ -29,6 +29,7 @@
   max-width: 30rem;
   width: 100%;
   height: 32rem;
+  margin-right: 3rem;
 }
 
 .imageWrapper::before {
@@ -41,4 +42,28 @@
   border: 4px solid var(--yellow500);
   border-radius: 5px;
   z-index: -10;
+}
+
+.techContainer {
+  display: grid;
+  gap: 2.4rem;
+}
+
+.accent {
+  color: var(--yellow500);
+}
+
+.techInnerContainer {
+  display: grid;
+  grid-template-columns: repeat(4, max-content);
+  row-gap: 1.2rem;
+  column-gap: 2.4rem;
+}
+
+.tech {
+  color: var(--secondary500);
+}
+
+.accent_grey {
+  color: var(--grey400);
 }
