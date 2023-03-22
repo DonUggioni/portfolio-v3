@@ -1,0 +1,8 @@
+.projectName {
+  font-size: 2.4rem;
+  color: var(--secondary500);
+}
+
+.span {
+  color: var(--pink500);
+}

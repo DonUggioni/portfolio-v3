@@ -6,7 +6,9 @@
 
 .heroContainer {
   max-width: 120rem;
-  margin: 0 4rem;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 4rem;
 }
 
 .headerSmall {

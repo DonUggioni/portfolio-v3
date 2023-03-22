@@ -29,6 +29,4 @@ body {
   background-color: var(--primary500);
   color: var(--grey300);
   font-family: 'Inconsolata', monospace;
-  display: grid;
-  place-items: center;
 }

@@ -1,5 +1,7 @@
 .sectionContainer {
-  /* display: grid;
-  place-items: center; */
-  margin: 0 4rem 20rem;
+  display: grid;
+  gap: 4rem;
+  margin: 0 auto;
+  padding: 0 4rem 20rem;
+  max-width: 120rem;
 }
