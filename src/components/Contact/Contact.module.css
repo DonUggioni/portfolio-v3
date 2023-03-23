@@ -1,0 +1,12 @@
+.container {
+  max-width: 60rem;
+  text-align: center;
+  display: grid;
+  gap: 2rem;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.text {
+  line-height: 1.4;
+}

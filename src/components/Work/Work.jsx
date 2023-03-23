@@ -3,6 +3,7 @@ import Section from '../UI/Section/Section';
 import SectionTitle from '../UI/SectionTitle/SectionTitle';
 import classes from './Work.module.css';
 import barbellHubWeb from '../../assets/barbell-hub-web.png';
+import barbellHubMobile from '../../assets/mobile_project.png';
 import ProjectTitle from '../UI/ProjectTitle/ProjectTitle';
 import DescriptionBox from '../UI/DescriptionBox/DescriptionBox';
 import TechText from '../UI/TechText/TechText';
@@ -22,7 +23,9 @@ function Work() {
             />
           </div>
           <div className={classes.descriptionRight}>
-            <ProjectTitle>Barbell Hub Web</ProjectTitle>
+            <ProjectTitle link='https://www.barbell-hub.com'>
+              Barbell Hub Web
+            </ProjectTitle>
             <DescriptionBox extraClass={classes.textAlignRight}>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus
               consequatur reprehenderit tempore deleniti facilis nulla hic ipsa
@@ -37,6 +40,34 @@ function Work() {
             </div>
             <ProjectLinks
               gitLink={'https://github.com/DonUggioni/strongfy_web'}
+              webLink={'https://www.barbell-hub.com'}
+            />
+          </div>
+        </li>
+
+        <li className={`${classes.grid_12_col}`}>
+          <div className={`${classes.imageWrapperRight} ${classes.imageRight}`}>
+            <img
+              className={classes.image}
+              src={barbellHubMobile}
+              alt='Barbell Hub mobile app screenshot'
+            />
+          </div>
+          <div className={classes.descriptionLeft}>
+            <ProjectTitle>Barbell Hub Mobile App</ProjectTitle>
+            <DescriptionBox extraClass={classes.textAlignRight}>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus
+              consequatur reprehenderit tempore deleniti facilis nulla hic ipsa
+              ullam beatae illum eius, impedit, illo velit laboriosam. Quaerat
+              saepe iure soluta fugit?
+            </DescriptionBox>
+            <div className={`${classes.flex}`}>
+              <TechText>React Native</TechText>
+              <TechText>Expo</TechText>
+              <TechText>Firebase</TechText>
+            </div>
+            <ProjectLinks
+              gitLink={'https://github.com/DonUggioni/strongfy-app'}
               webLink={'https://www.barbell-hub.com'}
             />
           </div>
