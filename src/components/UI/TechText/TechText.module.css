@@ -1,0 +1,8 @@
+.text {
+  color: var(--secondary500);
+  font-size: 1.6rem;
+}
+
+.span {
+  color: var(--grey300);
+}
