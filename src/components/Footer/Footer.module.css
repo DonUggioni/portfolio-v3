@@ -1,0 +1,30 @@
+.container {
+  max-width: 30rem;
+  margin: 0 auto;
+  padding: 0 2rem 2rem;
+  text-align: center;
+}
+
+.iconsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+}
+
+.iconWrapper {
+  transition: all 0.2s ease-in-out;
+}
+
+.iconWrapper:hover {
+  transform: translateY(-0.5rem);
+}
+
+.text {
+  font-size: 1.4rem;
+  margin-top: 0.6rem;
+}
+
+.span {
+  color: var(--pink500);
+}

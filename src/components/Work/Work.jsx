@@ -54,7 +54,9 @@ function Work() {
             />
           </div>
           <div className={classes.descriptionLeft}>
-            <ProjectTitle>Barbell Hub Mobile App</ProjectTitle>
+            <ProjectTitle link='https://play.google.com/store/apps/details?id=com.barbell.hub'>
+              Barbell Hub Mobile App
+            </ProjectTitle>
             <DescriptionBox extraClass={classes.textAlignRight}>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus
               consequatur reprehenderit tempore deleniti facilis nulla hic ipsa
@@ -68,7 +70,9 @@ function Work() {
             </div>
             <ProjectLinks
               gitLink={'https://github.com/DonUggioni/strongfy-app'}
-              webLink={'https://www.barbell-hub.com'}
+              webLink={
+                'https://play.google.com/store/apps/details?id=com.barbell.hub'
+              }
             />
           </div>
         </li>
