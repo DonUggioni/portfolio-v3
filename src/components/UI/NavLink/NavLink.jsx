@@ -1,9 +1,9 @@
 import React from 'react';
 import classes from './NavLink.module.css';
 
-function NavLink({ text }) {
+function NavLink({ text, extraClass }) {
   return (
-    <div className={classes.linkContainer}>
+    <div className={`${classes.linkContainer} ${extraClass}`}>
       <a href='#' className={classes.link}>
         {text}
       </a>

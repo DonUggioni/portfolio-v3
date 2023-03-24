@@ -1,4 +1,5 @@
 import React from 'react';
+import { Typewriter } from 'react-simple-typewriter';
 import classes from './Hero.module.css';
 
 function Hero() {
@@ -10,7 +11,21 @@ function Hero() {
           <h1 className={classes.headerLarge}>
             Renan Tiscoski, <br />
             <span className={classes.textDarker}>
-              I build <span className={classes.accent}>digital</span> stuff.
+              I build{' '}
+              <div className={classes.spanWrapper}>
+                <span className={classes.accent}>
+                  <Typewriter
+                    words={['digital', 'and', 'cool']}
+                    loop
+                    cursor
+                    cursorStyle='|'
+                    typeSpeed={150}
+                    deleteSpeed={120}
+                    delaySpeed={1200}
+                  />
+                </span>
+              </div>
+              stuff.
             </span>
           </h1>
         </div>

@@ -8,8 +8,8 @@ import Lottie from 'react-lottie-player';
 function NavBar() {
   return (
     <div className={classes.navBarContainer}>
-      <NavLink text='About' />
-      <NavLink text='Work' />
+      <NavLink text='About' extraClass={classes.link1} />
+      <NavLink text='Work' extraClass={classes.link2} />
       <div className={classes.animationContainer}>
         <Lottie
           loop
@@ -19,8 +19,8 @@ function NavBar() {
           style={{ width: '100%', height: '100%' }}
         />
       </div>
-      <NavLink text='Contact' />
-      <NavLink text='Resume' />
+      <NavLink text='Contact' extraClass={classes.link3} />
+      <NavLink text='Resume' extraClass={classes.link4} />
     </div>
   );
 }

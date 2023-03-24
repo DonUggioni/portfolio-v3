@@ -9,3 +9,38 @@
 .animationContainer {
   width: 6.5rem;
 }
+
+@media screen and (max-width: 450px) {
+  .navBarContainer {
+    display: grid;
+    grid-template-columns: repeat(10, max-content);
+    place-items: center;
+  }
+
+  .animationContainer {
+    grid-row: 1;
+    grid-column: 5 / span 2;
+    width: 8.5rem;
+  }
+
+  .link1,
+  .link2,
+  .link3,
+  .link4 {
+    margin-top: -0.25rem;
+    grid-row: 2 / 3;
+  }
+
+  .link1 {
+    grid-column: 4/5;
+  }
+  .link2 {
+    grid-column: 5/6;
+  }
+  .link3 {
+    grid-column: 6/7;
+  }
+  .link4 {
+    grid-column: 7/8;
+  }
+}

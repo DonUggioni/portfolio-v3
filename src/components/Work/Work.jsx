@@ -67,6 +67,7 @@ function Work() {
               <TechText>React Native</TechText>
               <TechText>Expo</TechText>
               <TechText>Firebase</TechText>
+              <TechText>Play Store</TechText>
             </div>
             <ProjectLinks
               gitLink={'https://github.com/DonUggioni/strongfy-app'}
