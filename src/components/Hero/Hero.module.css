@@ -19,7 +19,7 @@
 }
 
 .headerLarge {
-  font-size: clamp(6.4rem, 10vw, 9.6rem);
+  font-size: clamp(5.2rem, 10vw, 9.6rem);
   color: var(--grey300);
   font-weight: 500;
   line-height: 1.2;
@@ -48,5 +48,20 @@
   .spanWrapper {
     min-width: 34.6rem;
     text-align: left;
+  }
+}
+
+@media screen and (max-width: 615px) {
+  .wrapper {
+    text-align: center;
+  }
+
+  .spanWrapper {
+    min-width: 32.6rem;
+    text-align: center;
+  }
+
+  .heroContainer {
+    padding: 0 2rem;
   }
 }

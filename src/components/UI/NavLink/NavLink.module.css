@@ -18,7 +18,7 @@
   letter-spacing: 1px;
 }
 
-.link:hover {
+.link:active {
   color: var(--secondary400);
 }
 
@@ -33,6 +33,12 @@
   transition: all 0.2s;
 }
 
-.link:hover::before {
-  left: -3px;
+@media (min-width: 1024px) and (hover: hover) {
+  .link:hover {
+    color: var(--secondary400);
+  }
+
+  .link:hover::before {
+    left: -3px;
+  }
 }

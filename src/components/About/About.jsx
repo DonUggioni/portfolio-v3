@@ -7,9 +7,9 @@ function About() {
   return (
     <Section id='about'>
       <div className={classes.innerWrapper}>
+        <SectionTitle>About</SectionTitle>
         <div className={classes.infoContainer}>
           <div className={classes.infoInnerContainer}>
-            <SectionTitle>About</SectionTitle>
             <p className={classes.infoText}>
               My name is Renan. I build stuff for the internet. I am currently
               based in Portugal but I call myself a citizen of the world since I
