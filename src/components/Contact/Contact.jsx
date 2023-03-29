@@ -6,10 +6,9 @@ import classes from './Contact.module.css';
 
 function Contact() {
   return (
-    <Section>
+    <Section id='contact'>
       <div className={classes.container}>
         <SectionTitle>Contact Me</SectionTitle>
-        {/* <h2 className={classes.header}>Contact Me</h2> */}
         <p className={classes.text}>
           Thank you for taking the time to view my portfolio. If you would like
           to get in touch with me regarding a potential project or any other
