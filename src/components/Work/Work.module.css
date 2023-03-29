@@ -144,6 +144,10 @@
 }
 
 @media screen and (max-width: 840px) {
+  .innerWrapper {
+    gap: 16rem;
+  }
+
   .imageWrapper::before {
     top: 1rem;
     right: 1rem;
@@ -200,6 +204,10 @@
 }
 
 @media screen and (max-width: 460px) {
+  .innerWrapper {
+    gap: 12rem;
+  }
+
   .flex {
     display: grid;
     grid-template-columns: repeat(2, max-content);
