@@ -40,9 +40,9 @@
   text-align: center;
 }
 
-@media screen and (max-width: 834px) {
+@media screen and (max-width: 840px) {
   .wrapper {
-    text-align: left;
+    text-align: center;
   }
 
   .spanWrapper {
@@ -52,10 +52,6 @@
 }
 
 @media screen and (max-width: 615px) {
-  .wrapper {
-    text-align: center;
-  }
-
   .spanWrapper {
     min-width: 32.6rem;
     text-align: center;

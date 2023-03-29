@@ -9,7 +9,7 @@
 @media screen and (max-width: 790px) {
   .sectionContainer {
     display: grid;
-    place-items: center;
+    /* place-items: center; */
     gap: 3rem;
     /* margin: 0 auto; */
     padding: 0 2rem 16rem;

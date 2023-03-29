@@ -90,9 +90,6 @@
   border-radius: 5px;
 }
 
-.image:hover {
-}
-
 .grid_12_col {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -137,4 +134,7 @@
 .flex {
   display: flex;
   gap: 1.2rem;
+}
+
+@media screen and (max-width: 840px) {
 }
