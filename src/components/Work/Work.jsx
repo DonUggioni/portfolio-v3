@@ -23,7 +23,10 @@ function Work() {
             />
           </div>
           <div className={classes.descriptionRight}>
-            <ProjectTitle link='https://www.barbell-hub.com'>
+            <ProjectTitle
+              extraClass={classes.titleTop}
+              link='https://www.barbell-hub.com'
+            >
               Barbell Hub Web
             </ProjectTitle>
             <DescriptionBox extraClass={classes.textAlignRight}>
@@ -57,7 +60,7 @@ function Work() {
             <ProjectTitle link='https://play.google.com/store/apps/details?id=com.barbell.hub'>
               Barbell Hub Mobile App
             </ProjectTitle>
-            <DescriptionBox extraClass={classes.textAlignRight}>
+            <DescriptionBox extraClass={classes.textAlignLeft}>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus
               consequatur reprehenderit tempore deleniti facilis nulla hic ipsa
               ullam beatae illum eius, impedit, illo velit laboriosam. Quaerat
