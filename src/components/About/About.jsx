@@ -11,14 +11,17 @@ function About() {
         <div className={classes.infoContainer}>
           <div className={classes.infoInnerContainer}>
             <p className={classes.infoText}>
-              My name is Renan. I build stuff for the internet. I am currently
-              based in Portugal but I call myself a citizen of the world since I
-              have lived in a few different places of our planet. I got the
-              coding bug (no pun intended) around 2020 when I started exploring
-              the tech world. Since then, I started learning how to code on and
-              off until February 2022, when I started taking it seriously and
-              decided that I wanted to do this for a living. I'm also a musician
-              and part-time geek and gamer.
+              Hello there, my name's Renan! I'm a builder of things on the
+              interwebs, currently living in Portugal. But don't box me in, I'm
+              a citizen of the world - I've lived in a few different spots on
+              this big ol' planet. I caught the coding bug (and no, that's not a
+              pun, unfortunately) back in 2020 when I started poking around the
+              tech world. It was a love-hate relationship at first, but now I'm
+              all in. I've been learning to code on and off for a while, but it
+              wasn't until Feb 2022 that I really committed and decided to make
+              this my gig. When I'm not nerding out over code, you can find me
+              jamming on my guitar or indulging in some gaming. Yup, I'm a
+              part-time geek and proud of it!
             </p>
             <div className={classes.techContainer}>
               <p className={classes.techContainer_title}>

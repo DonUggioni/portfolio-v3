@@ -30,10 +30,10 @@ function Work() {
               Barbell Hub Web
             </ProjectTitle>
             <DescriptionBox extraClass={classes.textAlignRight}>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus
-              consequatur reprehenderit tempore deleniti facilis nulla hic ipsa
-              ullam beatae illum eius, impedit, illo velit laboriosam. Quaerat
-              saepe iure soluta fugit?
+              I have developed a website to complement the mobile application.
+              The objective of this website is to enhance app promotion and
+              provide clients with a dashboard where they can access pertinent
+              training data.
             </DescriptionBox>
             <div className={`${classes.flex}`}>
               <TechText>React</TechText>
@@ -61,10 +61,11 @@ function Work() {
               Barbell Hub Mobile App
             </ProjectTitle>
             <DescriptionBox extraClass={classes.textAlignLeft}>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus
-              consequatur reprehenderit tempore deleniti facilis nulla hic ipsa
-              ullam beatae illum eius, impedit, illo velit laboriosam. Quaerat
-              saepe iure soluta fugit?
+              Barbell Hub is a mobile application designed to cater to novice
+              and intermediate strength athletes by offering a range of training
+              templates. Users can log their training activities, monitor their
+              progress, and choose appropriate templates based on their training
+              phase.
             </DescriptionBox>
             <div className={`${classes.flex}`}>
               <TechText>React Native</TechText>
