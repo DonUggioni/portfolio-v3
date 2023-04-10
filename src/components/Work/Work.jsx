@@ -15,40 +15,6 @@ function Work() {
       <SectionTitle>Work</SectionTitle>
       <ul className={classes.innerWrapper}>
         <li className={`${classes.grid_12_col}`}>
-          <div className={`${classes.imageWrapper} ${classes.imageLeft}`}>
-            <img
-              className={classes.image}
-              src={barbellHubWeb}
-              alt='Barbell Hub website screenshot'
-            />
-          </div>
-          <div className={classes.descriptionRight}>
-            <ProjectTitle
-              extraClass={classes.titleTop}
-              link='https://www.barbell-hub.com'
-            >
-              Barbell Hub Web
-            </ProjectTitle>
-            <DescriptionBox extraClass={classes.textAlignRight}>
-              I have developed a website to complement the mobile application.
-              The objective of this website is to enhance app promotion and
-              provide clients with a dashboard where they can access pertinent
-              training data.
-            </DescriptionBox>
-            <div className={`${classes.flex}`}>
-              <TechText>React</TechText>
-              <TechText>Tailwind</TechText>
-              <TechText>Firebase</TechText>
-              <TechText>Netlify</TechText>
-            </div>
-            <ProjectLinks
-              gitLink={'https://github.com/DonUggioni/strongfy_web'}
-              webLink={'https://www.barbell-hub.com'}
-            />
-          </div>
-        </li>
-
-        <li className={`${classes.grid_12_col}`}>
           <div className={`${classes.imageWrapperRight} ${classes.imageRight}`}>
             <img
               className={classes.image}
@@ -78,6 +44,40 @@ function Work() {
               webLink={
                 'https://play.google.com/store/apps/details?id=com.barbell.hub'
               }
+            />
+          </div>
+        </li>
+
+        <li className={`${classes.grid_12_col}`}>
+          <div className={`${classes.imageWrapper} ${classes.imageLeft}`}>
+            <img
+              className={classes.image}
+              src={barbellHubWeb}
+              alt='Barbell Hub website screenshot'
+            />
+          </div>
+          <div className={classes.descriptionRight}>
+            <ProjectTitle
+              extraClass={classes.titleTop}
+              link='https://www.barbell-hub.com'
+            >
+              Barbell Hub Web
+            </ProjectTitle>
+            <DescriptionBox extraClass={classes.textAlignRight}>
+              I have developed a website to complement the mobile application.
+              The objective of this website is to enhance app promotion and
+              provide clients with a dashboard where they can access pertinent
+              training data.
+            </DescriptionBox>
+            <div className={`${classes.flex}`}>
+              <TechText>React</TechText>
+              <TechText>Tailwind</TechText>
+              <TechText>Firebase</TechText>
+              <TechText>Netlify</TechText>
+            </div>
+            <ProjectLinks
+              gitLink={'https://github.com/DonUggioni/strongfy_web'}
+              webLink={'https://www.barbell-hub.com'}
             />
           </div>
         </li>

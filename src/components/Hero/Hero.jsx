@@ -4,7 +4,7 @@ import classes from './Hero.module.css';
 
 function Hero() {
   return (
-    <div className={classes.wrapper}>
+    <main className={classes.wrapper}>
       <div className={classes.heroContainer}>
         <h3 className={classes.headerSmall}>Hello, my name is</h3>
         <div>
@@ -33,7 +33,7 @@ function Hero() {
           I'm a web developer focused on front end development.
         </h3>
       </div>
-    </div>
+    </main>
   );
 }
 

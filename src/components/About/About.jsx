@@ -14,18 +14,18 @@ function About() {
               Hello there, my name's Renan! I'm a builder of things on the
               interwebs, currently living in Portugal. But don't box me in, I'm
               a citizen of the world - I've lived in a few different spots on
-              this big ol' planet. I caught the coding bug (and no, that's not a
-              pun, unfortunately) back in 2020 when I started poking around the
-              tech world. It was a love-hate relationship at first, but now I'm
-              all in. I've been learning to code on and off for a while, but it
-              wasn't until Feb 2022 that I really committed and decided to make
-              this my gig. When I'm not nerding out over code, you can find me
-              jamming on my guitar or indulging in some gaming. Yup, I'm a
-              part-time geek and proud of it!
+              this big ol' planet. I caught the coding bug (Hah! See what I did
+              there?!) back in 2020 when I started poking around the tech world.
+              It was a love-hate relationship at first, but now I'm all in. I've
+              been learning to code on and off for a while, but it wasn't until
+              Feb 2022 that I really committed and decided to make this my gig.
+              When I'm not nerding out over code, you can find me jamming on my
+              guitar or indulging in some gaming. Yup, I'm a part-time geek and
+              proud of it!
             </p>
             <div className={classes.techContainer}>
               <p className={classes.techContainer_title}>
-                Some <span className={classes.accent}>technologies</span> I use:
+                My <span className={classes.accent}>tech</span> stack:
               </p>
               <div className={classes.techInnerContainer}>
                 <p className={classes.tech}>
