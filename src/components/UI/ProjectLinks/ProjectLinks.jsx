@@ -7,12 +7,12 @@ function ProjectLinks({ gitLink, webLink }) {
   return (
     <div className={classes.container}>
       <div className={classes.linkContainer}>
-        <a href={gitLink} className={classes.link}>
+        <a href={gitLink} target='_blank' className={classes.link}>
           <AiFillGithub color='rgb(18, 246, 250)' size={28} />
         </a>
       </div>
       <div className={classes.linkContainer}>
-        <a href={webLink} className={classes.link}>
+        <a href={webLink} target='_blank' className={classes.link}>
           <BiLinkExternal color='rgb(18, 246, 250)' size={28} />
         </a>
       </div>

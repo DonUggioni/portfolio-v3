@@ -10,12 +10,12 @@ function Footer() {
     <footer className={classes.container}>
       <div className={classes.iconsContainer}>
         <div className={classes.iconWrapper}>
-          <a href='https://www.linkedin.com/in/renan-tiscoski/'>
+          <a href='https://www.linkedin.com/in/renan-tiscoski/' target='_blank'>
             <AiFillLinkedin color='rgb(18, 246, 250)' size={28} />
           </a>
         </div>
         <div className={classes.iconWrapper}>
-          <a href='https://github.com/DonUggioni'>
+          <a href='https://github.com/DonUggioni' target='_blank'>
             <AiFillGithub color='rgb(18, 246, 250)' size={28} />
           </a>
         </div>

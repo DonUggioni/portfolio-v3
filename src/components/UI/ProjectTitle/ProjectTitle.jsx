@@ -4,7 +4,7 @@ import classes from './ProjectTitle.module.css';
 function ProjectTitle({ children, extraClass, link }) {
   return (
     <div className={`${classes.container} ${extraClass}`}>
-      <a className={`${classes.projectName}`} href={link}>
+      <a className={`${classes.projectName}`} target='_blank' href={link}>
         <span className={classes.span}>@</span>
         {children}
       </a>
