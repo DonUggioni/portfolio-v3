@@ -11,7 +11,7 @@ function NavBar() {
     <div className={classes.navBarContainer}>
       <NavLink text='About' href={'#about'} extraClass={classes.link1} />
       <NavLink text='Work' href={'#work'} extraClass={classes.link2} />
-      <div className={classes.animationContainer}>
+      <a className={classes.animationContainer} href='#home'>
         <Lottie
           loop
           animationData={atomAnimation}
@@ -19,7 +19,7 @@ function NavBar() {
           speed={0.5}
           style={{ width: '100%', height: '100%' }}
         />
-      </div>
+      </a>
       <NavLink text='Contact' href={'#contact'} extraClass={classes.link3} />
       <NavLink
         text='Resume'

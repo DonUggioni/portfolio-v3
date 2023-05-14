@@ -4,7 +4,7 @@ import classes from './Hero.module.css';
 
 function Hero() {
   return (
-    <main className={classes.wrapper}>
+    <main className={classes.wrapper} id='home'>
       <div className={classes.heroContainer}>
         <h3 className={classes.headerSmall}>Hello, my name is</h3>
         <div>

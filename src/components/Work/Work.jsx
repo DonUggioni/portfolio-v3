@@ -31,7 +31,9 @@ function Work() {
               and intermediate strength athletes by offering a range of training
               templates. Users can log their training activities, monitor their
               progress, and choose appropriate templates based on their training
-              phase.
+              phase. The main goal of the app is to provide a comprehensive tool
+              for strength athletes to enhance their training and track their
+              progress over time.
             </DescriptionBox>
             <div className={`${classes.flex}`}>
               <TechText>React Native</TechText>
@@ -65,9 +67,10 @@ function Work() {
             </ProjectTitle>
             <DescriptionBox extraClass={classes.textAlignRight}>
               I have developed a website to complement the mobile application.
-              The objective of this website is to enhance app promotion and
-              provide clients with a dashboard where they can access pertinent
-              training data.
+              The goal of this website is to enhance app promotion and provide
+              clients with a dashboard where they can access pertinent training
+              data as well as articles with training tips, helping athletes
+              develop their knowledge.
             </DescriptionBox>
             <div className={`${classes.flex}`}>
               <TechText>React</TechText>

@@ -2,7 +2,7 @@
   display: grid;
   gap: 4rem;
   margin: 0 auto;
-  padding: 0 4rem 20rem;
+  padding: 10rem 4rem 20rem;
   max-width: 120rem;
 }
 
@@ -12,12 +12,12 @@
     place-items: center;
     gap: 3rem;
     /* margin: 0 auto; */
-    padding: 0 2rem 16rem;
+    padding: 12rem 2rem 16rem;
   }
 }
 
 @media screen and (max-width: 460px) {
   .sectionContainer {
-    padding: 0 2rem 12rem;
+    padding: 20rem 2rem 12rem;
   }
 }

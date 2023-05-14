@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
 
 :root {
   --primary500: rgb(9, 10, 29);
@@ -29,5 +29,5 @@ body {
   font-size: clamp(1.6rem, 2vw, 1.8rem);
   background-color: var(--primary500);
   color: var(--grey300);
-  font-family: 'Inconsolata', monospace;
+  font-family: 'Montserrat', sans-serif;
 }
