@@ -38,7 +38,7 @@ function About() {
                   <span className={classes.accent_grey}>- </span> Sass
                 </p>
                 <p className={classes.tech}>
-                  <span className={classes.accent_grey}>- </span> JavaScript
+                  <span className={classes.accent_grey}>- </span> TypeScript
                 </p>
                 <p className={classes.tech}>
                   <span className={classes.accent_grey}>- </span> React

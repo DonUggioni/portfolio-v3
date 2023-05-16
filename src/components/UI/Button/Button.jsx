@@ -1,12 +1,10 @@
 import React from 'react';
 import classes from './Button.module.css';
 
-function Button({ children }) {
+function Button({ children, onClick, style }) {
   return (
-    <div className={classes.container}>
-      <a href='mailto:renan.uggioni@gmail.com' className={classes.link}>
-        {children}
-      </a>
+    <div className={`${classes.container} ${style}`} onClick={onClick}>
+      {children}
     </div>
   );
 }

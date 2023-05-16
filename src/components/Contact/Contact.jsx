@@ -3,6 +3,7 @@ import Button from '../UI/Button/Button';
 import Section from '../UI/Section/Section';
 import SectionTitle from '../UI/SectionTitle/SectionTitle';
 import classes from './Contact.module.css';
+import ContactModal from '../ContactModal/ContactModal';
 
 function Contact() {
   return (
@@ -18,7 +19,7 @@ function Contact() {
           question, a proposal, or just want to say hello, feel free to get in
           touch.
         </p>
-        <Button>Say hello!</Button>
+        <ContactModal />
       </div>
     </Section>
   );

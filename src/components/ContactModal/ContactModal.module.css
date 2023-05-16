@@ -1,0 +1,89 @@
+.box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 50rem;
+  width: 95vw;
+  background-color: var(--primary400);
+  padding: 4rem;
+  border-radius: 5px;
+  outline: none;
+  -webkit-box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 1);
+  box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 1);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputWrapper {
+  width: 100%;
+  position: relative;
+}
+
+.input {
+  margin-bottom: 1.4rem;
+  width: 100%;
+  padding: 1rem;
+  font-family: inherit;
+  background-color: var(--grey300);
+  border: none;
+  font-size: inherit;
+  border-radius: 5px;
+}
+
+.errorMessage {
+  position: absolute;
+  top: -2.6rem;
+  right: 0;
+  color: rgb(249, 91, 91);
+  display: none;
+  font-size: 1.5rem;
+}
+
+.errorMessageVisible {
+  display: block;
+}
+
+.error {
+  outline: 2px solid rgb(249, 91, 91);
+}
+
+.error:focus {
+  outline: 2px solid rgb(249, 91, 91);
+}
+
+input:focus {
+  outline: 2px solid var(--green500);
+}
+
+textarea {
+  resize: vertical;
+}
+
+textarea:focus {
+  outline: 2px solid var(--green500);
+}
+
+label {
+  color: var(--green500);
+  margin-bottom: 0.4rem;
+}
+
+.button {
+  width: 100%;
+  text-align: center;
+}
+
+@media screen and (max-width: 615px) {
+  .box {
+    padding: 2.8rem 1.4rem;
+  }
+
+  .errorMessage {
+    font-size: 1.3rem;
+  }
+}

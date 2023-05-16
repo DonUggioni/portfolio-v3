@@ -4,21 +4,13 @@
   place-self: center;
   border-radius: 5px;
   transition: all 0.2s ease-in-out;
+  padding: 1.6rem 2.4rem;
+  color: var(--green400);
+  cursor: pointer;
 }
 
 .container:hover {
   -webkit-box-shadow: 0px 0px 2px 0px var(--secondary400);
   box-shadow: 0px 0px 2px 0px var(--secondary400);
-}
-
-.link {
-  padding: 1.6rem 2.4rem;
-  display: inline-block;
-  text-decoration: none;
-  color: var(--green400);
-  transition: all 0.2s ease-in-out;
-}
-
-.link:hover {
   text-shadow: 0px 0px 10px rgba(0, 255, 115, 0.5);
 }
