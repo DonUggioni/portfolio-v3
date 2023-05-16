@@ -6,7 +6,7 @@ function Hero() {
   return (
     <main className={classes.wrapper} id='home'>
       <div className={classes.heroContainer}>
-        <h3 className={classes.headerSmall}>Hello, my name is</h3>
+        <span className={classes.headerSmall}>Hello, my name is</span>
         <div>
           <h1 className={classes.headerLarge}>
             Renan Tiscoski, <br />
@@ -29,9 +29,9 @@ function Hero() {
             </span>
           </h1>
         </div>
-        <h3 className={classes.headerSmall}>
+        <span className={classes.headerSmall}>
           I'm a web developer focused on front end development.
-        </h3>
+        </span>
       </div>
     </main>
   );

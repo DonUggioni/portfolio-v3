@@ -46,6 +46,7 @@ function Work() {
               webLink={
                 'https://play.google.com/store/apps/details?id=com.barbell.hub'
               }
+              ariaLabel={'Link to Barbell Hub app in play store.'}
             />
           </div>
         </li>
@@ -81,6 +82,7 @@ function Work() {
             <ProjectLinks
               gitLink={'https://github.com/DonUggioni/strongfy_web'}
               webLink={'https://www.barbell-hub.com'}
+              ariaLabel={'Link to barbell hub website'}
             />
           </div>
         </li>

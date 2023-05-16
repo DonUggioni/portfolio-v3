@@ -8,10 +8,24 @@ import Lottie from 'react-lottie-player';
 
 function NavBar() {
   return (
-    <div className={classes.navBarContainer}>
-      <NavLink text='About' href={'#about'} extraClass={classes.link1} />
-      <NavLink text='Work' href={'#work'} extraClass={classes.link2} />
-      <a className={classes.animationContainer} href='#home'>
+    <nav className={classes.navBarContainer}>
+      <NavLink
+        text='About'
+        href={'#about'}
+        extraClass={classes.link1}
+        ariaLabel={'Link to about section'}
+      />
+      <NavLink
+        text='Work'
+        href={'#work'}
+        extraClass={classes.link2}
+        ariaLabel={'Link to work section'}
+      />
+      <a
+        className={classes.animationContainer}
+        href='#home'
+        aria-label='Link to hero section'
+      >
         <Lottie
           loop
           animationData={atomAnimation}
@@ -20,14 +34,20 @@ function NavBar() {
           style={{ width: '100%', height: '100%' }}
         />
       </a>
-      <NavLink text='Contact' href={'#contact'} extraClass={classes.link3} />
+      <NavLink
+        text='Contact'
+        href={'#contact'}
+        extraClass={classes.link3}
+        ariaLabel={'Link to contact section'}
+      />
       <NavLink
         text='Resume'
         href={resumeFile}
         target='_blank'
         extraClass={classes.link4}
+        ariaLabel={'Link to resume file'}
       />
-    </div>
+    </nav>
   );
 }
 

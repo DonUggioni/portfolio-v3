@@ -3,10 +3,10 @@ import classes from './SectionTitle.module.css';
 
 function SectionTitle({ children }) {
   return (
-    <h3 className={classes.title}>
+    <h2 className={classes.title}>
       <span className={classes.span}>#</span>
       {children}
-    </h3>
+    </h2>
   );
 }
 
