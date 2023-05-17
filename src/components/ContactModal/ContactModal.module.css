@@ -4,7 +4,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   max-width: 50rem;
-  width: 95vw;
+  width: 90vw;
   background-color: var(--primary400);
   padding: 4rem;
   border-radius: 5px;
@@ -39,7 +39,7 @@
   position: absolute;
   top: -2.6rem;
   right: 0;
-  color: rgb(249, 91, 91);
+  color: #f95b5b;
   display: none;
   font-size: 1.5rem;
 }

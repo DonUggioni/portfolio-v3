@@ -161,7 +161,11 @@ export default function ContactModal() {
             </Button>
           </form>
           {messageSent && (
-            <Message title={'Hooray!'} message={'Message sent successfully!'} />
+            <Message
+              title={'Hooray!'}
+              message={'Message sent successfully!'}
+              success
+            />
           )}
           {errorMessage && (
             <Message

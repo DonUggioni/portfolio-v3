@@ -3,7 +3,7 @@
 :root {
   --primary500: rgb(9, 10, 29);
   --primary400: rgb(17, 19, 59);
-  --secondary500: rgb(15, 204, 206);
+  --secondary500: hsl(181, 86%, 43%);
   --secondary400: rgb(18, 246, 250);
   --green500: rgb(0, 186, 85);
   --green400: rgb(0, 255, 115);
