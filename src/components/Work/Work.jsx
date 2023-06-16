@@ -43,9 +43,7 @@ function Work() {
             </div>
             <ProjectLinks
               gitLink={'https://github.com/DonUggioni/strongfy-app'}
-              webLink={
-                'https://play.google.com/store/apps/details?id=com.barbell.hub'
-              }
+              webLink={'https://barbell-hub-demo.vercel.app/'}
               ariaLabel={'Link to Barbell Hub app in play store.'}
             />
           </div>
