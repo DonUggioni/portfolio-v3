@@ -4,6 +4,7 @@ import SectionTitle from '../UI/SectionTitle/SectionTitle';
 import classes from './Work.module.css';
 import barbellHubWeb from '../../assets/barbell-hub-web.png';
 import barbellHubMobile from '../../assets/mobile_project.png';
+import quizzBizzAppImg from '../../assets/quizz-bizz-app.png';
 import ProjectTitle from '../UI/ProjectTitle/ProjectTitle';
 import DescriptionBox from '../UI/DescriptionBox/DescriptionBox';
 import TechText from '../UI/TechText/TechText';
@@ -81,6 +82,44 @@ function Work() {
               gitLink={'https://github.com/DonUggioni/strongfy_web'}
               webLink={'https://www.barbell-hub.com'}
               ariaLabel={'Link to barbell hub website'}
+            />
+          </div>
+        </li>
+
+        <li className={`${classes.grid_12_col}`}>
+          <div className={`${classes.imageWrapperRight} ${classes.imageRight}`}>
+            <img
+              className={classes.image}
+              src={quizzBizzAppImg}
+              alt='QuizzBizz mobile app screenshot'
+            />
+          </div>
+          <div className={classes.descriptionLeft}>
+            <ProjectTitle link='https://play.google.com/store/apps/details?id=com.quizzbizz.app'>
+              QuizzBizz
+            </ProjectTitle>
+            <DescriptionBox extraClass={classes.textAlignLeft}>
+              Experience engaging and enjoyable quiz challenges with the
+              QuizzBizz app. Developed using cutting-edge cross-platform
+              technologies like React Native, Expo, and Firebase, this
+              user-friendly full stack application offers seamless navigation
+              and a delightful user experience. Explore an extensive range of
+              questions spanning various subjects, ensuring an enriching and
+              diverse quiz-taking journey.
+            </DescriptionBox>
+            <div className={`${classes.flex}`}>
+              <TechText>React Native</TechText>
+              <TechText>Expo</TechText>
+              <TechText>Firebase</TechText>
+              <TechText>Play Store</TechText>
+              <TechText>Aptabase</TechText>
+            </div>
+            <ProjectLinks
+              gitLink={'https://github.com/DonUggioni/quizzbizz_app'}
+              webLink={
+                'https://play.google.com/store/apps/details?id=com.quizzbizz.app'
+              }
+              ariaLabel={'Link to QuizzBizz Hub app in play store.'}
             />
           </div>
         </li>
